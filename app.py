@@ -85,7 +85,7 @@ class Calculadora:
         self.frame_tema = ttk.Frame(self.janela)
         self.frame_tema.pack(fill='x', padx=10, pady=10)
 
-        self.label_tema = ttk.Label(self.frame_tema, text="Escolher tema:", font=('Roboto', 12))
+        self.label_tema = ttk.Label(self.frame_tema, text="Gabriela Malerba", font=('Roboto', 12))
         self.label_tema.pack(side='top', pady=(0, 5))
 
         self.temas = ['darkly', 'cosmo', 'flatly', 'journal', 'liters', 'lumen', 'minty', 'pulse', 'sandstone', 'united', 'yeti', 'corculean']
